@@ -1,0 +1,19 @@
+{
+  "skill_name": "google-analytics-ga4",
+  "evals": [
+    {
+      "id": 1,
+      "name": "basic-traffic-overview",
+      "prompt": "今月のexample-shopのアクセス状況を教えて。セッション数とか、どこから来てるか知りたい",
+      "expected_output": "example-shopプロパティの今月のセッション数・アクティブユーザー数などの基本サマリーと、主要な流入経路（チャネル/ソースメディア）の内訳を報告する。前月との比較も含む。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "channel-comparison-dashboard",
+      "prompt": "example-shopの先月と今月のチャネル別セッション数を比較したダッシュボードを作って",
+      "expected_output": "チャネルグループ別セッション数を今月/先月で比較するChart.jsのHTMLダッシュボード。KPIカードとグラフを含む。",
+      "files": []
+    }
+  ]
+}
